@@ -1,0 +1,27 @@
+{
+    "name": "highlight-const",
+    "displayName": "Highlight Const",
+    "description": "Плагин для подсветки const-значений в файле main.cpp",
+    "version": "0.0.1",
+    "publisher": "your-username",
+    "engines": {
+      "vscode": "^1.80.0"
+    },
+    "activationEvents": [
+      "onCommand:highlightConst.highlight"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "highlightConst.highlight",
+          "title": "Highlight Const in main.cpp"
+        }
+      ]
+    },
+    "devDependencies": {
+      "typescript": "^4.0.0",
+      "@types/vscode": "^1.80.0"
+    }
+  }
+  
